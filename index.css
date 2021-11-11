@@ -1,0 +1,31 @@
+:root {
+  --font-main: "Space Mono", monospace;
+  --font-secondary: "Inconsolata", monospace;
+  --fs-300: 0.875rem;
+  --fs-400: 1rem;
+  --fs-500: 1.125rem;
+  --fs-600: 1.5rem;
+  --fs-700: 3rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  font-weight: 400;
+}
+
+.title {
+  font-family: var(--font-secondary);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
